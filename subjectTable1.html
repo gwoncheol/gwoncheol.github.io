@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<!-- subjectTable1.html -->
+
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      table,
+      thead,
+      tbody,
+      tfoot,
+      tr,
+      th,
+      td {
+        border: 2px solid black;
+        border-collapse: collapse;
+        text-align: center;
+      }
+      .subject1 {
+        background-color: lightgray;
+      }
+      .subject2 {
+        background-color: #f2eaa8;
+      }
+      .subject3 {
+        background-color: #2efe64;
+      }
+      .subject4 {
+        background-color: #0101df;
+      }
+      .subject5 {
+        background-color: #df01d7;
+      }
+      .subject6 {
+        background-color: #2efef7;
+      }
+      .subject7 {
+        background-color: #4b088a;
+      }
+      .subject8 {
+        background-color: #ff4000;
+      }
+      th,
+      td {
+        width: 50px;
+        height: 65px;
+      }
+    </style>
+    <!-- border-collapse: collapse 단선으로, 반대는 separate -->
+    <title>HTML5 시간표</title>
+  </head>
+  <body>
+    <table>
+      <caption>
+        &lt;20201347 이권철&gt; 시간표
+      </caption>
+      <thead>
+        <tr>
+          <th>시간</th>
+          <th>월</th>
+          <th>화</th>
+          <th>수</th>
+          <th>목</th>
+          <th>금</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>1교시</td>
+          <td></td>
+          <td></td>
+          <td rowspan="2" class="subject1">자료구조및실습</td>
+          <td></td>
+          <td rowspan="3" class="subject5">확률과통계</td>
+        </tr>
+
+        <tr>
+          <td>2교시</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>3교시</td>
+          <td rowspan="2" class="subject2">디지털논리회로</td>
+          <td rowspan="2" class="subject1">자료구조및실습</td>
+          <td rowspan="2" class="subject4">동양고전의지혜</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>4교시</td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>5교시</td>
+          <td rowspan="4" class="subject3">c++</td>
+          <td rowspan="1" class="subject2">디지털논리회로</td>
+          <td></td>
+          <td rowspan="2" class="subject6">인터넷 응용</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>6교시</td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>7교시</td>
+          <td rowspan="2" class="subject7">영어회화2</td>
+          <td></td>
+          <td rowspan="1" class="subject8">진로멘토링</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>8교시</td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>9교시</td>
+          <td></td>
+          <td rowspan="1" class="subject6">인터넷 응용</td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
