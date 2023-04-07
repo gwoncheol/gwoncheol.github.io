@@ -4,6 +4,15 @@
 		<meta charset="utf-8"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
 		<title>니제르</title>
+		<style>
+			img {
+			    display: block;
+			    margin: 0 auto;
+			}
+			p {
+			    text-align: center;
+			}
+		</style>
 	</head>
 	<body>
 		<img src="https://search.pstatic.net/common?type=o&size=108x81&quality=75&direct=true&src=http%3A%2F%2Fdbscthumb.phinf.naver.net%2F1230_000_1%2F20120625174549134_GXWBIJMT5.png%2F94_p.png%3Ftype%3Dm1500">
