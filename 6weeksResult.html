@@ -9,14 +9,8 @@
         left: 50%;
         transform: translateX(-50%);
       }
-      /* 추천 결과 요소 위치 조정 */
-      /*이 코드 팔요 없음 일단 그렇게 생각함 */
-      .result-container {
-        position: fixed;
-        top: 50%;
-        left: 100px;
-      }
-      /*출력된 이미지 위치 */
+
+      /* 출력된 이미지 위치 */
       img {
         width: 300px;
         height: 300px;
@@ -31,36 +25,32 @@
 
     <div class="button-container">
       <button onclick="generateImage()">결과 출력</button>
-      <div id="image-container"><img src="./login.png"/></div>
     </div>
 
-    <div class="result-container">
-      <p id="image-container"></p>
-    </div>
+    <div id="image-container"></div>
 
     <script>
       function generateImage() {
-        /*let images는 이미지 URL들을 배열로 저장하고 있습니다.*/
-        let images = [];
+        let images = [
+          './image1.png',
+          './image2.png',
+          './image3.png'
+        ];
         let randomIndex = Math.floor(Math.random() * images.length);
-        let randomImage = './login.png'
-          images[
-            randomIndex
-          ]; /*let randomImage는 images 배열에서 랜덤한 이미지 URL을 가져옵니다.*/
+        let randomImage = images[randomIndex];
         let imageContainer =
           document.getElementById(
             "image-container"
-          ); /*let imageContainer는 HTML의 div 엘리먼트를 가져옵니다. 이 엘리먼트는 이미지가 표시될 영역입니다.*/
+          );
         let imageElement =
           document.createElement(
             "img"
-          ); /*let imageElement는 HTML의 img 엘리먼트를 생성합니다. 이 엘리먼트에 랜덤하게 선택된 이미지 URL을 할당합니다.*/
+          );
         imageElement.src = randomImage;
         imageContainer.appendChild(
           imageElement
-        ); /*imageContainer.appendChild(imageElement);는 imageElement를 imageContainer에 추가합니다. 이렇게 하면 새로운 이미지가 imageContainer에 표시됩니다.*/
+        );
       }
     </script>
   </body>
 </html>
-
