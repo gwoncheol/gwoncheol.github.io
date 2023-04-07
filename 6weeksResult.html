@@ -1,7 +1,7 @@
 <html>
   <head>
     <!-- 페이지 이름-->
-    <title>과제</title>
+    <title>6주과제</title>
     <style>
       /* 버튼 위치 이동시키는 코드 */
       .button-container {
@@ -31,7 +31,7 @@
 
     <div class="button-container">
       <button onclick="generateImage()">결과 출력</button>
-      <div id="image-container"><img src="./14.html" /></div>
+      <div id="image-container"><img src="./login.png"/></div>
     </div>
 
     <div class="result-container">
@@ -43,7 +43,7 @@
         /*let images는 이미지 URL들을 배열로 저장하고 있습니다.*/
         let images = [];
         let randomIndex = Math.floor(Math.random() * images.length);
-        let randomImage =
+        let randomImage = './login.png'
           images[
             randomIndex
           ]; /*let randomImage는 images 배열에서 랜덤한 이미지 URL을 가져옵니다.*/
@@ -63,3 +63,4 @@
     </script>
   </body>
 </html>
+
