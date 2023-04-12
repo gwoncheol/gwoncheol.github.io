@@ -12,8 +12,8 @@ pageEncoding="UTF-8"%> <% request.setCharacterEncoding("utf-8"); %>
     <section>
       <h2>JSP form</h2>
       <section>
-        <h2>날짜:<% request.getParameter("datex");%> <br /></h2>
-        <h2>시간:<% request.getParameter("timex");%> <br /></h2>
+        <h2>날짜:<% request.getParameter("datex")%> <br /></h2>
+        <h2>시간:<% request.getParameter("timex")%> <br /></h2>
     </section>
     </section>
   </body>
