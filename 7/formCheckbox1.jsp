@@ -11,7 +11,7 @@
     <section> 
         <h2>JSP form</h2> 
         <section> 
-            <% String[] uHobby = request.getParameterValues("hobby");%> 
+            <% String[] uHobby = request.getParameterValues("hobby")%> 
             <h4> 
                 <% 
                 if(uHobby == null) { 
