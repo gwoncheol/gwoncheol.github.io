@@ -12,7 +12,7 @@ pageEncoding="UTF-8"%> <% request.setCharacterEncoding("utf-8"); %>
     <section>
       <h2>JSP form</h2>
       <section>
-        <h2>선택 성별:<% request.getParameterValues("gender");%> <br /></h2>
+        <h2>선택 성별:<% request.getParameterValues("gender")%> <br /></h2>
       </section>
     </section>
   </body>
