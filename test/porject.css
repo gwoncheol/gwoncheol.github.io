@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  background-color: #10f27d;
+}
+body img {
+  width: 200px;
+  height: 200px;
+  border: 1px solid red;
+}
+.headBox {
+  position: fixed;
+  width: 100vw;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+.headerBox {
+  display: flex;
+  align-items: center;
+  background-color: aqua;
+  border: 1px solid red; /* 이거 완성하고 삭제 */
+  padding: 5px;
+}
+.headerLogo {
+  font-size: 15px;
+}
+.headerMenu {
+  /* 메뉴 위치 가운데로 수정해야함 */
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+.headerMenu li {
+  padding: 10px;
+}
+/* //////////////////////////////////////////////////// */
+.button {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 200px;
+  height: 50px;
+}
+
+#word-box {
+  display: none;
+  position: fixed;
+  width: 200px;
+  height: 50px;
+  background-color: cornsilk;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 135px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+/* ////////////////////////////////////////////// */
+.ll {
+  height: 160px;
+  border: 1px solid rgb(189, 16, 137);
+}
+.i {
+  width: 300px;
+  height: 400px;
+  border: 1px solid gray;
+  background-color: aqua;
+  margin: 30px;
+  display: inline-block;
+}
+
+.i2 {
+  width: 300px;
+  height: 400px;
+  border: 1px solid gray;
+  background-color: aqua;
+  margin: 30px;
+  display: inline-block;
+}
+.i3 {
+  width: 300px;
+  height: 400px;
+  border: 1px solid gray;
+  background-color: aqua;
+  display: inline-block;
+  margin: 30px;
+}
+
+.i4 {
+  width: 300px;
+  height: 400px;
+  border: 1px solid gray;
+  background-color: aqua;
+  margin: 30px;
+  display: inline-block;
+}
+.i5 {
+  width: 300px;
+  height: 400px;
+  border: 1px solid gray;
+  background-color: aqua;
+  margin: 30px;
+  display: inline-block;
+}
+.i6 {
+  width: 300px;
+  height: 400px;
+  border: 1px solid gray;
+  background-color: aqua;
+  margin: 30px;
+  display: inline-block;
+}
+.i7 {
+  width: 300px;
+  height: 400px;
+  border: 1px solid gray;
+  background-color: aqua;
+  margin: 30px;
+  display: inline-block;
+}
+.i8 {
+  width: 300px;
+  height: 400px;
+  border: 1px solid gray;
+  background-color: aqua;
+  margin: 30px;
+  display: inline-block;
+}
+.i9 {
+  width: 300px;
+  height: 400px;
+  border: 1px solid gray;
+  background-color: aqua;
+  margin: 30px;
+  display: inline-block;
+}
