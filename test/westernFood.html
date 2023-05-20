@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="westernFood.css" />
+    <title>양식</title>
+  </head>
+  <body>
+    <div class="headBox">
+      <!-- 윗 부분 -->
+      <header class="headerBox">
+        <div class="headerLogo">
+          <!-- 로고 이미지 넣을 자리 -->
+          <a href="">사이트 이름</a>
+        </div>
+        <ul class="headerMenu">
+          <li><a href="한식으로 가는 주소"></a>한식</li>
+          <li><a href="일식으로 가는 주소"></a>일식</li>
+          <li><a href="중식으로 가는 주소"></a>중식</li>
+          <li><a href="양식으로 가는 주소"></a>양식</li>
+        </ul>
+      </header>
+      <!-- 버튼 클릭시 추천 해주는 부분 -->
+      <section class="section">
+        <button class="button" onclick="generateWord()">
+          양식 랜덤 추천 버튼
+        </button>
+        <div id="word-box"></div>
+        <script src="westernFood.js"></script>
+      </section>
+    </div>
+    <div class="ll"></div>
+    <main class="mainBox">
+      <div class="i">
+        <img
+          class="food2"
+          src="https://images.unsplash.com/photo-1565299507177-b0ac66763828?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=422&q=80"
+        />
+        <h1>햄버거</h1>
+      </div>
+      <div class="i2">
+        <img
+          class="food2"
+          src="https://images.unsplash.com/photo-1544025162-d76694265947?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80"
+        />
+        <h1>바베큐</h1>
+      </div>
+      <div class="i3">
+        <img
+          class="food2"
+          src="https://images.unsplash.com/photo-1516100882582-96c3a05fe590?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80"
+        />
+        <h1>파스타</h1>
+      </div>
+      <div class="i4">
+        <img
+          class="food2"
+          src="https://images.unsplash.com/photo-1574071318508-1cdbab80d002?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=869&q=80"
+        />
+        <h1>피자</h1>
+      </div>
+      <div class="i5">
+        <img
+          class="food2"
+          src="https://images.unsplash.com/photo-1540713434306-58505cf1b6fc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80"
+        />
+        <h1>샌드위치</h1>
+      </div>
+      <div class="i6">
+        <img
+          class="food2"
+          src="https://images.unsplash.com/photo-1558199141-391d935676f0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=465&q=80"
+        />
+        <h1>스테이크</h1>
+      </div>
+      <div class="i7">
+        <img
+          class="food2"
+          src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+        />
+        <h1>샐러드</h1>
+      </div>
+      <div class="i8">
+        <img
+          class="food2"
+          src="https://images.unsplash.com/photo-1625944226626-9bd664656506?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1922&q=80"
+        />
+        <h1>연어 스테이크</h1>
+      </div>
+      <div class="i9">
+        <img
+          class="food2"
+          src="https://images.unsplash.com/photo-1637361874063-e5e415d7bcf7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80"
+        />
+        <h1>리조또</h1>
+      </div>
+      <div class="i10">
+        <img
+          class="food2"
+          src="https://images.unsplash.com/photo-1634324092536-74480096b939?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+        />
+        <h1>필라프</h1>
+      </div>
+      <div class="i11">
+        <img
+          class="food2"
+          src="https://images.unsplash.com/photo-1605909388460-74ec8b204127?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80"
+        />
+        <h1>스프</h1>
+      </div>
+      <div class="i12">
+        <img
+          class="food2"
+          src="https://images.unsplash.com/photo-1585841393823-1680ba8648e4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80"
+        />
+        <h1>베이글</h1>
+      </div>
+      <div class="i13">
+        <img
+          class="food2"
+          src="https://images.unsplash.com/photo-1619740455768-b2bca145cc7a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+        />
+        <h1>핫도그</h1>
+      </div>
+      <div class="i14">
+        <img
+          class="food2"
+          src="https://images.unsplash.com/photo-1612874742237-6526221588e3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=80"
+        />
+        <h1>카르보나라</h1>
+      </div>
+      <div class="i15">
+        <img
+          class="food2"
+          src="https://images.unsplash.com/photo-1593759608136-45eb2ad9507d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=859&q=80"
+        />
+        <h1>또띠아</h1>
+      </div>
+      <div class="i16">
+        <img
+          class="food2"
+          src="https://images.pexels.com/photos/14686445/pexels-photo-14686445.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        />
+        <h1>치킨</h1>
+      </div>
+    </main>
+  </body>
+</html>
