@@ -3,18 +3,24 @@
   padding: 0;
   margin: 0;
 }
-nav,
-article {
-  border: 1px solid gray;
-  margin: 5px;
-  padding: 8px;
-  text-align: center;
+body {
+  background-image: url("https://gwoncheol.github.io/E/jejutree.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  /* background-color: whitesmoke; */
 }
+
 header {
   border: 1px solid gray;
   margin: 5px;
   padding: 8px;
   text-align: center;
+  background: linear-gradient(
+    0deg,
+    rgba(70, 175, 116, 1) 0%,
+    rgba(149, 226, 132, 1) 100%
+  );
 }
 
 header h2 {
@@ -22,17 +28,26 @@ header h2 {
 }
 
 nav {
+  border: 1px solid gray;
+  margin: 5px;
+  padding: 8px;
+  text-align: center;
   display: inline-block;
   vertical-align: top;
-  /* width: 15%; */
+  background: rgba(255, 255, 255, 0.5);
 }
 nav li {
   list-style: none;
 }
+nav a {
+  text-decoration: none;
+}
 nav h2 {
-  border: 1px solid red;
   margin: 10px;
-  /* background-color: aquamarine; */
+}
+
+nav .transparent-bg {
+  background-color: transparent;
 }
 
 aside {
@@ -42,7 +57,8 @@ aside {
   margin: 5px;
   padding: 8px;
   width: 84%;
-  min-height: 333px;
+  min-height: 325px;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 aside ul {
@@ -59,10 +75,14 @@ aside li img {
   width: 50px;
   height: 50px;
 }
+aside p {
+  margin-bottom: 10px;
+}
 
 footer {
   display: block;
   border: 1px solid gray;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 .introduction {
   text-align: center;
@@ -106,59 +126,12 @@ footer {
   }
 }
 
-/* 높이는 정하지 말고 테두리도 삭제 */
-/* 글자 왼쪽에 오게 정리하고 */
-/* 화면 사이즈 마다 정리 할것 */
-/* footer의 우치 조정도 필요함 */
-/* .btn-10 {
-  background: rgb(22, 9, 240);
-  background: linear-gradient(
-    0deg,
-    rgba(22, 9, 240, 1) 0%,
-    rgba(49, 110, 244, 1) 100%
-  );
-  color: #fff;
-  border: none;
-  transition: all 0.3s ease;
-  overflow: hidden;
-}
-
-.btn-10:after {
-  position: absolute;
-  content: " ";
-  z-index: -1;
-  width: 100%;
-  height: 100%;
-  transition: all 0.3s ease;
-  -webkit-transform: scale(0.1);
-  transform: scale(0.1);
-  top: -50%;
-  left: -50%;
-}
-
-.btn-10:hover {
-  color: #fff;
-  border: none;
-  background: transparent;
-}
-
-.btn-10:hover:after {
-  background: rgb(0, 3, 255);
-  background: linear-gradient(
-    0deg,
-    rgba(2, 126, 251, 1) 0%,
-    rgba(0, 3, 255, 1) 100%
-  );
-  -webkit-transform: scale(1);
-  transform: scale(1);
-} */
 .menu {
   position: relative;
-  /* 기타 다른 스타일 속성들 */
 }
 .menu .hover-box {
   position: relative;
-  background-color: aquamarine;
+  background-color: rgb(35, 249, 177);
 }
 
 .menu .hover-box:after {
@@ -176,14 +149,11 @@ footer {
 
 .menu .hover-box:hover:after {
   background: rgb(0, 3, 255);
-  background: linear-gradient(
-    0deg,
-    rgba(2, 126, 251, 1) 0%,
-    rgba(0, 3, 255, 1) 100%
-  );
+  background: linear-gradient(0deg, rgb(255, 0, 200) 0%, rgb(255, 0, 242) 100%);
   -webkit-transform: scale(1);
   transform: scale(1);
 }
+
 .menu .hover-box:hover:after {
   font-size: 25px;
 }
